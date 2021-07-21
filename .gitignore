@@ -102,3 +102,12 @@ dist
 
 # TernJS port file
 .tern-port
+
+#LaTex
+# Ignore everything in presentation folder
+/doc/*
+# except
+!/doc/images/
+!/doc/notes.txt
+!/doc/notes.pdf
+!/chapters/
