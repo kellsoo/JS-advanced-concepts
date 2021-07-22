@@ -1,4 +1,5 @@
 \documentclass{book}
+
 \usepackage{blindtext}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -12,6 +13,20 @@
 \usepackage{amsmath}
 \usepackage{mathtools}
 
+% Acronyms
+% \usepackage[acronym]{glossaries}
+\usepackage[automake]{glossaries}
+\input{include/acronyms.tex}
+
+\makeglossaries
+
+
+
+% bibtex
+\usepackage{biblatex} %Imports biblatex package
+\addbibresource{library.bib} %Import the bibliography file
+
+
 % JS style listings
 % \input{includes/js-style-listings}
 
@@ -19,15 +34,24 @@
 \author{Andrei Neagoie}
 \date{2021-07-25}
 
-\graphicspath{ {chapters/} }
+\graphicspath{{chapters/}}
 
 \begin{document}
 
-\maketitle
-\thispagestyle{empty}
-\tableofcontents
+    \maketitle
+    \thispagestyle{empty}
+    \tableofcontents
 
-% CHAPTER 1 Non technical
-\input{chapters/01/01-js-foundation}
+    % CHAPTER 1 - JavaScript Foundation
+    \input{chapters/01/01-js-foundation}
 
+    % CHAPTER 1 - JavaScript Foundation part 2
+    \input{chapters/02/02-js-foundation-2}
+
+
+    \printglossary[type=\acronymtype, title = {Acronyms}]
+    
+    \listoffigures 
+
+    \printbibliography[ title = {Resorces} ]
 \end{document}

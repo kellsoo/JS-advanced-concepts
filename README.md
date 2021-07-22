@@ -5,5 +5,3 @@ Andrei Neagoie udemy course https://www.udemy.com/course/advanced-javascript-con
 
 ## doc 
 [notes.pdf](doc/notes.pdf)
-
-test

@@ -111,3 +111,4 @@ dist
 !/doc/notes.txt
 !/doc/notes.pdf
 !/chapters/
+!/include/
