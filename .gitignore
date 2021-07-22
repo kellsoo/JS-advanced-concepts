@@ -107,8 +107,8 @@ dist
 # Ignore everything in presentation folder
 /doc/*
 # except
-!/doc/images/
 !/doc/notes.txt
 !/doc/notes.pdf
 !/doc/chapters/
-!/doc/include/
+!/doc/chapters/*
+!/doc/include/*
