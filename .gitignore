@@ -110,5 +110,5 @@ dist
 !/doc/images/
 !/doc/notes.txt
 !/doc/notes.pdf
-!/chapters/
-!/include/
+!/doc/chapters/
+!/doc/include/
